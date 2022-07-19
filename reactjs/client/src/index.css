@@ -1,0 +1,151 @@
+/* REST
+======================================*/
+body,
+html,
+#root {
+  height: 100%;
+}
+
+main {
+  overflow: hidden;
+  position: relative;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+/* BUTTONS
+=================================== */
+
+/* Primary Button */
+.btn-primary {
+  color: #fff;
+  background-color: #142230;
+  border-color: #142230;
+}
+
+.btn-primary:hover {
+  color: #142230;
+  background-color: #b4d1e0;
+  border-color: #b4d1e0;
+}
+
+/* COLORS 
+===================================== */
+/* links */
+.light {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.secondary {
+  color: #b9c1c9;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.light,
+.secondary {
+  transition: all 0.3s ease-in-out;
+}
+
+.light:hover,
+.secondary:hover {
+  color: #a7d7f0 !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* text */
+.text-primary {
+  color: #142230 !important;
+}
+
+/* background */
+.bg-secondary {
+  background-color: #edf5f9 !important;
+}
+
+/* badge color */
+.badge {
+  color: #142230;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+}
+
+/* badges for categories */
+.badge-green {
+  background-color: #ced7d4;
+}
+
+.badge-red {
+  background-color: #f1d1cf;
+}
+
+.badge-yellow {
+  background-color: #fdf0c4;
+}
+
+.badge-blue {
+  background-color: #edf5f9;
+}
+
+/* badges for production status */
+.badge-incomplete {
+  background-color: #2a2d32;
+}
+
+.badge-progress {
+  background-color: #5489f1;
+}
+
+.badge-complete {
+  background-color: #7edf88;
+}
+
+/* TYPOGRAPHY 
+===================================== */
+.font-italic {
+  font-style: italic;
+}
+
+/* MODAL
+======================================== */
+/* modal backdrop */
+.modal-backdrop.show {
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-backdrop.fade {
+  height: 100%;
+  width: 100%;
+}
+
+/* IMAGES
+======================================== */
+
+/* Avatar section */
+.settings {
+  width: 100%;
+}
+
+/* Avatar */
+.avatar {
+  max-width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .settings {
+    max-width: 50%;
+  }
+}

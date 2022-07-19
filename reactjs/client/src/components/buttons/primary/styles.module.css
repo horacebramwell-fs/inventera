@@ -1,0 +1,20 @@
+/* d-flex justify-content-center align-items-center gap-2 btn-primary sm:position-fixed */
+.primaryBtn {
+  position: fixed !important;
+  bottom: 25px !important;
+  right: 20px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .primaryBtn {
+    position: initial !important;
+    gap: 1rem !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}

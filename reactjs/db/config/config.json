@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "horacebramwell",
+    "password": null,
+    "database": "inventeradev",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "staging": {
+    "username": "zagoggqjcpwrpb",
+    "password": "44acd3ab4a7f5b5e354d3af5ca7bfc89d56de9421c2605455cf88b4ae3c6bc22",
+    "database": "d6k8l6flk6dobi",
+    "host": "ec2-52-201-124-168.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": true,
+      "rejectUnauthorized": false
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

@@ -1,0 +1,9 @@
+.user {
+  position: absolute;
+  bottom: 25px;
+}
+
+.user h3 {
+  font-size: 20px;
+  font-weight: 400;
+}

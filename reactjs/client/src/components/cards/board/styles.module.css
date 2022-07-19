@@ -1,0 +1,14 @@
+.board {
+  margin: 0;
+}
+
+.container {
+  border: dotted 2px #ccc;
+  border-radius: 2px;
+  min-height: 100px;
+}
+
+.containerFill {
+  border: none;
+  padding: 0;
+}
